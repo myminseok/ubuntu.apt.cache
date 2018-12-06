@@ -25,7 +25,17 @@ dpkg -l
 
 ```
 
-# setup nginx
+# setup nginx with compile
+```
+tar xf nginx-1.15.7.tar.gz
+cd nginx-1.15.7
+./configure
+make && make install
+
+```
+
+# setup nginx (apt)
+
 ```
 apt-get install nginx
 
