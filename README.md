@@ -95,4 +95,8 @@ service nginx restart
 
 ```
 
+# OS verson check
 
+```
+lsb_release -a
+```
